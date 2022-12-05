@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger menu-øvelse</title>
+    <link rel="stylesheet" href="css/demo.css" />
+    <!-- Ret i nedenståendde stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <div class="logo">
+        <a href="#0">Logo</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <header>
+          <h2>Kontakt os</h2>
+          <p>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra dig.</p>
+        </header>
+
+        <form>
+          <!-- Formular-indhold -->
+          <div class="form-felt">
+            <label for="navn"
+              >Fornavn
+              <input placeholder="fx Magnus " name="fnavn" type="text" />
+            </label>
+          </div>
+          <div class="form-felt">
+            <label for="navn"
+              >Efternavn
+              <input placeholder="Madsen" name="enavn" type="text" />
+            </label>
+          </div>
+          <div class="form-felt">
+            <label for="email"
+              >E-mail
+              <input placeholder="magnusmadsen@gmail.com" name="mail" type="email" />
+            </label>
+          </div>
+
+          <div>
+            <label for="profil">Profil:</label>
+            <select id="profil" name="profil">
+              <option value="Studerende">Studerende</option>
+              <option value="Underviser">Underviser</option>
+            </select>
+          </div>
+          <div>
+            <p><label for="besked">Besked:</label></p>
+            <textarea id="besked" name="besked" rows="4" cols="50"></textarea>
+            <br />
+          </div>
+          <button id="button">Indsend</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
